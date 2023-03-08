@@ -1,0 +1,150 @@
+.head {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-main {
+    background-color: pink;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.heading {
+    position: relative;
+    left: 40px;
+    top: 70px;
+}
+
+.heading #h1 {
+    font-size: 50px;
+    font-style: oblique;
+    font-family: fantasy;
+    line-height: 30px;
+    text-decoration: overline underline;
+}
+
+.heading #h2 {
+    font-size: 35px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 0px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#card-section {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.card {
+    width: 20%;
+    min-width: 250px;
+    max-width: 500px;
+    height: 450px;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 70%;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card-text {
+    margin-left: 20px;
+}
+
+.card-text h4 {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.card-text p {
+    font-size: larger;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+}
+
+.card-text button {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    display: block;
+    position: relative;
+    left: 40px;
+    top: 50px;
+    border: white;
+    outline: 2px solid rgb(197, 18, 18);
+    border-radius: 10px;
+    width: 60%;
+    height: 40px;
+    background-color: seagreen;
+}
+
+.card-text button:focus {
+    outline: 2px solid seagreen;
+}
+
+.card input {
+    width: 70%;
+    height: 30px;
+    outline: 2px solid rgb(197, 18, 18);
+    border: white;
+    border-radius: 10px;
+}
+
+.input-feild {
+    display: flex;
+}
+
+.card input:focus {
+    outline: 2px solid seagreen;
+}
+
+.result-secrion {
+    width: 50%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 200px;
+
+}
+
+.footer-text {
+    position: relative;
+    top: 70px;
+}
+
+.footer-text p {
+    font-size: larger;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    line-height: 0;
+}
+
+.footer-text h4 {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 0;
+}
